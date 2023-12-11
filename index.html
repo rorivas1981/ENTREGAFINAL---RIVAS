@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Descripción del sitio">
+    <title>Ventas JBL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/logo.jpeg" alt="Logo de la Tienda">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="pago.html">Carrito</a></li>
+            </ul>
+        </nav>
+        <div class="barraNaranja"></div>
+        <div class="text-container">
+            <h1 id="titulo">JBL LOVERS</h1>
+            <h2 id="slogan">Excelencia en sonido a tu alcance</h2>
+        </div>
+        <div class="bloque">
+            <div class="search-container">
+                <input type="search" id="inputBuscar" placeholder="Buscar productos...">
+            </div>
+            <div class="carrito-container">
+                <a href="pago.html">
+                    <img class="carrito" src="images/carrito.png" alt="Carrito de Compras" id="carrito-icon">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="contenedorMercaderias"></div>
+    </main>
+
+    <footer>
+        <div>
+            <p>Precios expresados en dólares americanos y no incluyen IVA</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>

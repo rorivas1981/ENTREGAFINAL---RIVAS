@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Flip6",
+        "imagen": "images/flip6.jpeg",
+        "precio": 99,
+        "categoria": "Parlantes"
+    },
+    {
+        "id": 2,
+        "nombre": "Charge5",
+        "imagen": "images/charge5.jpeg",
+        "precio": 145,
+        "categoria": "Parlantes"
+    },
+    {
+        "id": 3,
+        "nombre": "PartyBox",
+        "imagen": "images/partybox.jpeg",
+        "precio": 219,
+        "categoria": "Parlantes"
+    },
+    {
+        "id": 4,
+        "nombre": "Pulse5",
+        "imagen": "images/pulse5.jpeg",
+        "precio": 199,
+        "categoria": "Parlantes"
+    },
+    {
+        "id": 5,
+        "nombre": "T500",
+        "imagen": "images/t500.jpeg",
+        "precio": 20,
+        "categoria": "Auriculares"
+    },
+    {
+        "id": 6,
+        "nombre": "T520BT",
+        "imagen": "images/t520bt.jpeg",
+        "precio": 33,
+        "categoria": "Auriculares"
+    },
+    {
+        "id": 7,
+        "nombre": "WaveFlex",
+        "imagen": "images/waveflex.jpeg",
+        "precio": 45,
+        "categoria": "Auriculares"
+    },
+    {
+        "id": 8,
+        "nombre": "TuneFlex",
+        "imagen": "images/tuneflex.jpeg",
+        "precio": 69,
+        "categoria": "Auriculares"
+    }
+]

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas JBL</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/reg.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/logo.jpeg" alt="Logo de la Tienda">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="pago.html">Carrito</a></li>
+            </ul>
+        </nav>
+        <div class="barraNaranja">
+        </div>
+        <div class="text-container">
+            <h1 id="titulo">JBL LOVERS</h1>
+            <h2 id="slogan">Excelencia en sonido a tu alcance</h2>
+        </div>
+
+    </header>
+
+    <div class="contenedorFormulario">
+        <form class="formulario" id="registroForm">
+            <h1 class="h1Formulario">Registro</h1>
+
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="inputNombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="text" id="inputEmail" name="email" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="inputDireccion" name="direccion" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="inputCiudad" name="ciudad" required>
+
+            <button type="button" id="btnRegistro">Registrarse</button>
+        </form>
+    </div>
+    <footer>
+        <div>
+            <p>Precios expresados en dólares americanos y no incluyen IVA</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const btnRegistro = document.getElementById("btnRegistro");
+
+            btnRegistro.addEventListener("click", () => {
+                Swal.fire({
+                    title: '¡Gracias por tu Registro!',
+                    text: 'Ya formas parte de JBL LOVERS.',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
